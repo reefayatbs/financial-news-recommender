@@ -13,7 +13,6 @@ This system fetches financial news articles and provides personalized recommenda
 
 ### 1. News Fetcher (`src/news_fetcher.py`)
 - Fetches financial news from NewsAPI
-- Optimized queries for financial topics
 - Rate limit handling and progress tracking
 - Focused on core financial news sources
 
@@ -23,18 +22,15 @@ This system fetches financial news articles and provides personalized recommenda
   - Conservative: views (0.7), likes (0.2), bookmarks (0.1)
   - Moderate: views (0.5), likes (0.3), bookmarks (0.2)
   - Aggressive: views (0.4), likes (0.4), bookmarks (0.2)
-- Similarity metrics for recommendation explanations
 
 ### 3. User Simulator (`src/user_simulator.py`)
 - Generates synthetic user interactions
 - Creates diverse user profiles
-- Simulates realistic interaction patterns
 
 ### 4. Dashboard (`src/dashboard.py`)
 - Interactive Streamlit dashboard
-- Visualization of user interactions
-- Real-time recommendation display
-- Detailed similarity metrics
+- Visualization of user interactions and recommendation
+- Detailed key components across interacted articles and recommended articles
 
 ## Installation
 
